@@ -8,10 +8,19 @@
   float: right;
 }
 
+.todo:hover {
+  font-size: 110%;
+  transition: 0.25s;
+}
+
 .todo {
   background: #f4f4f4;
   padding: 10px;
-  border-bottom: 1px #ccc dotted;
+  border-bottom: 1px #ccc solid;
+  margin: 0 75px;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
 }
 
 .is-complete {
