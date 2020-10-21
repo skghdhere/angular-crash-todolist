@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "angular-todolist-90850"
+  },
+  "targets": {
+    "angular-todolist-90850": {
+      "hosting": {
+        "site": [
+          "angular-todolist-90850"
+        ]
+      }
+    }
   }
 }

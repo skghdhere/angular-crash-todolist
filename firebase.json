@@ -3,7 +3,8 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "dist/angular-crash-todolist",
+    "public": "dist/angular-crash-todolist", 
+    "target": "site",
     "ignore": [
       "firebase.json",
       "**/.*",

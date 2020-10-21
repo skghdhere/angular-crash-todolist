@@ -23,7 +23,12 @@ This will be deployed to firebase hosting.
 
 ## Deploy to firebase
 
-TODO
+1. npm install -g firebase-tools
+2. firebase init
+3. firebase deploy
+   Note: Add target ''' firebase target:apply hosting site angular-todolist-90850 ''' and make changes to firebase.json
+
+https://angular-todolist-90850.web.app/
 
 ## Deploy to Heroku
 
